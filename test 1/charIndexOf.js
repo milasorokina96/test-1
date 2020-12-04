@@ -6,7 +6,7 @@ function charIndexOf(str, sym) {
         if (arrOfStr[i] === sym) {
             return i;
         } else {
-            return i = -1;
+            return -1;
         }
     }
 }
