@@ -5,8 +5,7 @@ function charIndexOf(str, sym) {
     for(let i = 0; i < arrOfStr.length; i++){
         if (arrOfStr[i] === sym) {
             return i;
-        } else {
-            return -1;
         }
     }
+    return -1;
 }
