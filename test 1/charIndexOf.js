@@ -1,9 +1,8 @@
 module.exports = charIndexOf;
 
 function charIndexOf(str, sym) {    
-    let arrOfStr = str.split('');
-    for(let i = 0; i < arrOfStr.length; i++){
-        if (arrOfStr[i] === sym) {
+    for(let i = 0; i < str.length; i++){
+        if (str[i] === sym) {
             return i;
         }
     }
